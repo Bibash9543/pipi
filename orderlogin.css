@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none; 
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/*logo image*/
+.logo{
+	width: 100px;
+	height: 70px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+/*navigation bar*/
+.navigation{
+	display: flex;
+	width: 100%;
+	height: 70px;
+	background-color: #F0FFF0;
+}
+
+.ul{
+	display: flex;
+	line-height: 70px;
+}
+
+.name{
+	line-height: 75px;
+	font-size: 40px;
+	margin-right: 180px;
+}
+
+#log-in{
+	background-color: #d9eee9;
+}
+
+#log-in:hover{
+   text-decoration: underline; 
+}
+
+#list{
+	margin-right: 300px;
+}
+
+
+.nav-a{
+	margin-right: 70px;
+	font-size: 20px;
+	border-radius: 8px;
+	padding-right: 8px;
+	padding-left: 10px;
+	color: black;
+}
+
+.nav-a:hover{
+	background-color: #d9eee9;
+	border-radius: 10px;
+    transition: all .5s ease;
+}
+
+/*orderloginbox*/
+.orderloginbox{
+	background:rgba(44,62,80,0.7);
+	box-shadow: 10px 10px 10px 0 rgba(44,62,80,0.9);
+	width: 350px;
+	border-radius: 10px;
+	margin: 180px auto;
+	height: 300px;
+}
+
+.lt{
+	font-size: 30px;
+	margin-left: 30px;
+	color: white;
+}
+
+#lt1{
+	margin-left: 30px;
+	padding-left: 48px;
+}
+
+input{
+	width: 160px;
+	text-align: center;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bibash{
+	margin-top: 50px;
+}
+
+.bipasha{
+	font-size: 25px;
+	color: rgba(44,62,80,0.7);
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+
+.bipasha:hover{
+	background-color: rgba(44,62,80,0.7);
+	color: white;
+	transition: all .6s ease;
+}
